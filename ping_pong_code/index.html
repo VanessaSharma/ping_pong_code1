@@ -3,17 +3,18 @@
   <head>
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
-	  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
-    <title>Ping Pong Game</title>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <title>Ping Pong</title>
   </head>
 
   <body>
-    <!-- Main Heading -->
+    <!-- Main Header -->
   <div id="container">
 	<div class="header">
-		<h1>Welcome!</h1>
+	<h1>Welcome!</h1>
   </div>
-	  <!-- Ping Pong Instructions-->
+	  <!-- Instructions-->
 	<div class="contentbody">
         <h3 style="padding-left:20px"><u>Rules to play the game:</u></h3>
         <p>This game will count up to the entered number starting from 1 following the rules given below:</p>
@@ -29,11 +30,11 @@
             <label style="padding-left:20px"><b>Lets get start:</b></label>
             <input id="userInput" type="number" placeholder="Choose a number">
             <button type="submit">Play !</button>
-		  </div>   
+          </div>   
         </form>
         <br>
         <!-- Output -->
-		<div>
+        <div>
 			<p><em>Result:</em></p>
 			<ul style="padding-left:100px" id="output"></ul>
         </div>
