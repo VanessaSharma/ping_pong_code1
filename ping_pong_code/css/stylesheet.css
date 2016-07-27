@@ -1,6 +1,6 @@
 #container { 
 		position: static;
-	 	background: greenyellow;
+	 	background: green;
 	  	margin-left: 260px;
 		margin-top: 90px;
 	  	text-align: justify;
@@ -9,7 +9,7 @@
 			
 .header{
 	background-image: url("http://3.bp.blogspot.com/-7J_JWRvys1w/UMOTMLzlAPI/AAAAAAAAEFQ/P6TtXX1WUdQ/s1600/marty+reisman.png");
-	border-bottom: 15px solid red;
+	border-bottom: 15px solid black;
 	margin-top: -10px;
 	height:200px;
 	background-repeat: repeat;
@@ -17,7 +17,7 @@
 }
 
 .contentbody p{
-	color: brown;
+	color: black
 	padding: 10px 30px 10px 20px;
 	line-height: 30px;
 	text-align: justify;
@@ -25,7 +25,7 @@
 }
 
 .contentbody >h1{
-	color: brown;
+	color: Pink;
 	padding: 10px 30px 10px 20px;
 	text-align: justify;
 	font: sans-serif;
@@ -61,7 +61,7 @@ body{
 
 li a { 
 	font: italic 100% algerian;
-	color: green;
+	color: white;
 	display: block;
 }
 
@@ -70,6 +70,6 @@ footer p{
 		padding: 5px;
 		text-align: center;
 	   	width: 890px;		
-		background: yellow;
-		color: white;
+		background: pink;
+		color: lightblue;
 }
