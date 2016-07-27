@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+	  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+    <title>Ping Pong Game</title>
+  </head>
+
+  <body>
+    <!-- Main Heading -->
+  <div id="container">
+	<div class="header">
+		<h1>Welcome!</h1>
+  </div>
+	  <!-- Ping Pong Instructions-->
+	<div class="contentbody">
+        <h3 style="padding-left:20px"><u>Rules to play the game:</u></h3>
+        <p>This game will count up to the entered number starting from 1 following the rules given below:</p>
+        <ol>
+          <li>Numbers divisible by 3 become 'ping'</li>
+          <li>Numbers divisible by 5 become 'pong'</li>
+          <li>Numbers divisible by 3 and 5 become 'pingpong'</li>
+        </ol>
+		<br />
+        <!--input from the player-->
+        <form id="pingPong">
+          <div>
+            <label style="padding-left:20px"><b>Lets get start:</b></label>
+            <input id="userInput" type="number" placeholder="Choose a number">
+            <button type="submit">Play !</button>
+		  </div>   
+        </form>
+        <br>
+        <!-- Output -->
+		<div>
+			<p><em>Result:</em></p>
+			<ul style="padding-left:100px" id="output"></ul>
+        </div>
+	</div> 
+  
+  	<footer>
+		<p>Thank you for playing!<p>
+	</footer>
+
+</div>
+
+  </body>
+	
+
+</html>
