@@ -1,5 +1,15 @@
 // Logic for Ping Pong game
-function pingPong(ppBot){
+
+// User Interface Logic
+$(document).ready(function() {
+ $("form#pingPong").submit(function(event){
+  event.preventDefault();
+  var input = parseInt($("input#userInput").val());
+  var results = pingPong(input);
+  $("#output").empty().append(results);
+  });
+  
+  function pingPong(ppBot){
   var ppResults = [];
   for (i = 1; i <= ppBot; i++) {
   if ((i % 3 === 0) && (i % 5 === 0)) {
@@ -17,15 +27,6 @@ function pingPong(ppBot){
 
   }return ppResults;
 };
-
-// User Interface Logic
-$(document).ready(function() {
- $("form#pingPong").submit(function(event){
-  event.preventDefault();
-  var input = parseInt($("input#userInput").val());
-  var results = pingPong(input);
-  $("#output").empty().append(results);
-  });
 });
 
 
