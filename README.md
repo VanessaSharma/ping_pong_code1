@@ -6,11 +6,14 @@
 
 ##_https://github.com/VanessaSharma/ping_pong_code1/tree/gh-pages_
 
-## Specifications_
+## _Specifications_
 
-_**Game can count up to the provided number: Ex: User inputs # 4 , Output will be [1,2]**_
-_**When user inputs numbers divisible by 3, ouput will be "ping". Ex: Input # 9, Output will be [1,ping,4,5,ping,7,8,ping"]**_
-_**When user inputs numbers divisible by 5, ouput will be "pong". Ex: Input #10, Ouput will be [1,2,3,4,pong,6,7,8,9,pong]**_
+_Game can count up to the provided number: Ex: User inputs # 4 , Output will be [1,2]_
+
+_When user inputs numbers divisible by 3, ouput will be "ping". Ex: Input # 9, Output will be [1,ping,4,5,ping,7,8,ping"]_
+
+_When user inputs numbers divisible by 5, ouput will be "pong". Ex: Input #10, Ouput will be [1,2,3,4,pong,6,7,8,9,pong]_
+
 _When user inputs numbers divisible by 15, ouput will be "pingpong". Ex: Input # 15, Output will be [1,2,3,4,5,6,7,8,9,10,11,12,13,14,pingpong]_
 
 ## Setup/Installation Requirements
