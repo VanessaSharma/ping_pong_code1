@@ -2,28 +2,29 @@
 function pingPong(ppBot){
   var ppResults = [];
   for (i = 1; i <= ppBot; i++) {
-    if ((i % 3 === 0) && (i % 5 === 0)) {
-        ppResults.push('<li>pingpong</li>');
-    }
-    else if (i % 3 === 0) {
-        ppResults.push("<li>ping</li>");
-    }
-    else if (i % 5 === 0) {
-        ppResults.push("<li>pong</li>");
-    }
-    else {
-        ppResults.push("<li>" + i + "</li>");
-    }
+  if ((i % 3 === 0) && (i % 5 === 0)) {
+   ppResults.push('<li>pingpong</li>');
+  }
+  else if (i % 3 === 0) {
+   ppResults.push("<li>ping</li>");
+  }
+  else if (i % 5 === 0) {
+   ppResults.push("<li>pong</li>");
+  }
+  else {
+   ppResults.push("<li>" + i + "</li>");
+  }
+
   }return ppResults;
 };
 
 // User Interface Logic
 $(document).ready(function() {
-  $("form#pingPong").submit(function(event){
-    event.preventDefault();
-    var input = parseInt($("input#userInput").val());
-    var results = pingPong(input);
-    $("#output").empty().append(results);
+ $("form#pingPong").submit(function(event){
+  event.preventDefault();
+  var input = parseInt($("input#userInput").val());
+  var results = pingPong(input);
+  $("#output").empty().append(results);
   });
 });
 
