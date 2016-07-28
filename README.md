@@ -4,6 +4,8 @@
 
 #### By _**Vanessa Palacios**_
 
+##_https://github.com/VanessaSharma/ping_pong_code1/tree/gh-pages_
+
 ## Specificationss_
 
 _{This ping pong game will let you choose one number and then provide you a list ranging from 1 to that number. It will replace:_
