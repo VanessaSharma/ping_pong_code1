@@ -24,12 +24,12 @@ _No known bugs as of latest version._
 
 ## Support and contact details
 
-_If you have any questions or comments, feel free to contact Vanessa Palacios Sharma at vanelunasharma@gmail.com. Thank you!_
+_If you have any questions or comments, feel free to contact Vanessa Palacios Sharma at Thank you!_
 
 ## Technologies Used
 _HTML, CSS, JAVASCRIPT,BOOSTRAP, JQUERY_
 ### License
 
 *This webpage is licensed under the MIT license*
-
+you 
 Copyright (c) 2016 **_Vanessa Palacios Sharma_**
